@@ -1,32 +1,32 @@
-Insurance Purchase Prediction using Logistic Regression
-Project Overview
-This project implements a logistic regression model to predict whether a person will buy insurance based on their age. The dataset (insurance_data.csv) contains age and a binary purchase indicator (0 or 1).
+# Logistic Regression - Insurance Purchase Prediction
 
-Key Steps
-Data Loading & Exploration – Load and visualize data distributions.
+This is a simple yet insightful machine learning project where we use **Logistic Regression** to predict whether a person will buy insurance based on their age.
 
-Model Training – Train a logistic regression classifier.
+## 📝 Project Description
 
-Prediction & Evaluation – Test model accuracy.
+The goal of this project is to build a binary classification model that predicts if a person is likely to purchase insurance using only one feature: **age**. This serves as a great introduction to logistic regression and the basics of supervised machine learning.
 
-Technologies Used
-Python
+We used:
+- **Pandas** for data handling.
+- **Matplotlib** for visualization.
+- **Scikit-learn** for implementing the Logistic Regression model.
+- A custom sigmoid function to understand the inner workings of logistic regression.
 
-Pandas (Data Handling)
+## 🧾 Dataset
 
-Matplotlib (Visualization)
+The dataset (`insurance_data.csv`) contains two columns:
+- `age`: Age of the person.
+- `bought_insurance`: Whether the person bought insurance (1) or not (0).
 
-Scikit-learn (Logistic Regression)
+## 🔍 What You'll Learn
 
-How to Run
-Clone the repository.
+- How to implement logistic regression from scratch using Python.
+- How to split data into training and testing sets.
+- How to interpret model coefficients and make predictions.
+- The importance of the sigmoid function in logistic regression.
 
-Install dependencies:
+## 🚀 How to Run
 
-bash
-pip install pandas matplotlib numpy scikit-learn  
-Open and run the Jupyter notebook.
-
-Results
-The model achieves high accuracy in predicting insurance purchases, demonstrating the effectiveness of logistic regression for binary classification.
-
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/logistic-regression-insurance.git 
